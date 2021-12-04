@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: whitesmoke;
+    position: relative;
+    font-size: 20px;
+    font-family: roboto, sans-serif;
+}
+h1,
+h2 {
+    font-weight: 500;
+}
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 0;
+    background-color: #fff;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo-nav img {
+    height: 100%;
+    width: 150px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    padding: 0 15px;
+}
+nav ul li a {
+    color: #1b1e3f;
+}
+.active {
+    color: #bb254b;
+}
+
+/*BUTTONS*/
+.btn {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+}
+.rose {
+    background-color: #bb254b;
+    color: #fff;
+}
+.blue {
+    background-color: #28aac2;
+    color: #fff;
+}
+
+/*Figures*/
+.bar-rose {
+    width: 100px;
+    height: 6px;
+    background-color: #bb254b;
+}
+.bar-blue {
+    width: 100px;
+    height: 6px;
+    background-color: #28aac2;
+}
+.square {
+    position: relative;
+    top: 9px;
+    width: 80px;
+    height: 80px;
+    background-color: coral;
+}
+
+/*  FAKE SLIDER */
+.fake-slider {
+    z-index: -100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+.wezon-text {
+    color: #fff;
+    font-family: kalam, sans-serif;
+    font-size: 10rem;
+}
+.fake-slider img {
+    position: absolute;
+    z-index: -1000;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.cta-btn {
+    display: flex;
+}
+.giveaway {
+    width: 200px;
+    margin-right: 20px;
+}
+.joinus {
+    width: 200px;
+    margin-left: 20px;
+}
+
+/*QUI SOMMES NOUS*/
+.wwa-text-img {
+    display: flex;
+}
+.wwa-text {
+    display: flex;
+    justify-content: center;
+    color: #ddd;
+    padding: 60px 40px;
+    background-color: #111;
+}
+.wwa-text h2 {
+    margin-bottom: 10px;
+    color: #28aac2;
+}
+.ourmission {
+    color: #1b1e3f;
+    position: relative;
+    top: -70px;
+    padding: 20px 50px;
+    border-radius: 4px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.13);
+}
+.ourmission h2 {
+    font-weight: 500;
+    color: #28aac2;
+    margin-bottom: 10px;
+}
+.ourvalues {
+    color: #111;
+    display: flex;
+}
+.left {
+    flex: 1;
+}
+.right {
+    flex: 1;
+}
+.aValue {
+    display: flex;
+    margin-bottom: 30px;
+}
+.value-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.value-img-box {
+    margin-left: 3rem;
+    border-right: 7px solid #bb254b;
+    color: #fff;
+    z-index: -999;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.value-img-box img {
+    opacity: 0.5;
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.value-img-box span {
+    width: 80%;
+}
+
+/*Projects*/
+.wrap-project {
+    background-color: #111;
+    padding: 3rem 0;
+}
+.projects {
+    color: #fff;
+}
+.project-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.a-project {
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+}
+.a-project h4 {
+    margin: 4px 0 5px 0;
+}
+.a-project img {
+    width: 100%;
+}
+.a-project button {
+    margin-top: 1rem;
+    align-self: flex-end;
+    width: 120px;
+}
+.project-content {
+    background-color: rgb(26, 26, 26);
+    padding: 10px;
+}
+
+/*Articles*/
+.wrap-article {
+    padding: 3rem 0;
+}
+.articles {
+    color: #111;
+}
+.article-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.a-article {
+    color: #111;
+    display: flex;
+    flex-direction: column;
+}
+.a-article h4 {
+    margin: 0px 0 5px 0;
+}
+.a-article img {
+    width: 100%;
+}
+.a-article button {
+    margin-top: 1rem;
+    align-self: flex-end;
+    width: 120px;
+}
+.article-content {
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+}

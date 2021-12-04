@@ -1,0 +1,42 @@
+.card {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 50px;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+.form-group {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+.form-group label {
+    width: 100px;
+    text-align: right;
+    margin-right: 15px;
+}
+.form-group input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #363c5c;
+    padding: 5px 10px;
+}
+.form-group input:focus {
+    border: 1px solid #bb254b;
+}
+
+@media (max-width: 752px) {
+    .form-group label {
+        text-align: left;
+    }
+    .form-group input {
+        width: 100%;
+    }
+}

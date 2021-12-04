@@ -1,0 +1,87 @@
+.add-article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.add-form {
+  background-color: #eee;
+  width: 70%;
+  padding: 1rem;
+  border-radius: 4px;
+}
+.add-article h1 {
+  margin-bottom: 1rem;
+}
+
+.add-form form input[type='text'] {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ddd;
+}
+.add-form form textarea {
+  margin: 1rem 0;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ddd;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+  border-radius: 3px;
+  padding: 7px;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: white;
+  background-color: #bb254b;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+  background-color: #881c37;
+}
+/* .title-banner input[type='text'] {
+  flex: 1;
+  margin-right: 1rem;
+} */
+.title-banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tags-multiple-files input[type='text'] {
+  flex: 1;
+  margin-right: 1rem;
+}
+.tags-multiple-files {
+  display: flex;
+  justify-content: space-between;
+}
+.is-project label {
+  margin-right: 15px;
+}
+.is-project {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.send {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
